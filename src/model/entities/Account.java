@@ -48,7 +48,7 @@ public class Account {
 
     public void withdraw (Double amount){
 
-        if (amount < 0) {
+        if (amount <= 0) {
             throw new DomainException("Error. Value must be higher than 0");
         }
         else if (amount > withdrawLimit) {

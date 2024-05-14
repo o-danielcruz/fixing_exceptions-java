@@ -1,5 +1,4 @@
 package model.exceptions;
-
 import java.io.Serial;
 
 public class DomainException extends RuntimeException {
